@@ -1,2 +1,2 @@
-# nathanpotter17.github.io
-## Nathan Potter's Github Pages Website
+# Nathan Potter's Github Pages Website
+LinkedIn: https://www.linkedin.com/in/nathan-potter1
