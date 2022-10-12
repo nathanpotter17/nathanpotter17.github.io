@@ -28,6 +28,13 @@ body {
     width: 100%;
 }
 
+img
+{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
 @keyframes gradient {
 	0% {
 	  background-position: 51% 0%;
