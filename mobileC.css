@@ -260,6 +260,7 @@ img {
 	display: flex;
 	padding-top: 5px;
 	padding-left: 10px;
+	padding-right: 0px;
 }
 
 .icon1 {
@@ -280,17 +281,11 @@ ul#icons li.icon1 {
 
 ul#icons li.icon2 {
 	scale: 80%;
-	padding-right: 15px;
+	padding-right: 0px;
 	padding-left: 15px;
 	list-style-image: url('./icons/linkin.png');
 }
 
-ul#icons li.icon3 {
-	scale: 80%;
-	padding-left: 15px;
-	padding-right: 0px;
-	list-style-image: url('./icons/disc.png');
-}
 
 
 /* GLOW EFFECTS */

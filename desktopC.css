@@ -282,17 +282,10 @@ ul#icons li.icon1 {
 }
 
 ul#icons li.icon2 {
-	padding-right: 20px;
+	padding-right: 0px;
 	padding-left: 20px;
 	list-style-image: url('./icons/linkin.png');
 }
-
-ul#icons li.icon3 {
-	padding-left: 20px;
-	padding-right: 0px;
-	list-style-image: url('./icons/disc.png');
-}
-
 
 /* GLOW EFFECTS */
 .glow-on-hover {
