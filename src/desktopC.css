@@ -1,0 +1,167 @@
+
+* {
+	font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.logo {
+	
+	font-size: 25px;
+	position: relative;
+	align-self: left;
+	top: 0px;
+	left: 15px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: auto;
+	flex-shrink: 100%;
+	padding-right: 15px;
+}
+
+.loader {
+  
+  font-weight: 900;
+}
+
+.tabs__head {
+	display: flex;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	justify-content: right;
+	align-items: center;
+	transition: 0.5s;
+	z-index: 1000;
+}
+
+.tabs__head button {
+	margin: 15px;
+}
+
+.tabs__head button:hover {
+	background: black;
+	scale: 105%;
+	transition: 1s;
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+.tabs__toggle.is-active {
+	color: #63ffea;
+	background: black;
+}
+
+.tabs__toggle {
+	align-items: center;
+	display: flex;
+	height: 50px;
+	width: auto;
+	background: transparent;
+	font-weight: bold;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	margin-right: 50px;
+	font-size: 20px;
+	flex-shrink: 100%;
+}
+
+.foot {
+	position: fixed;
+	font-size: 20px;
+	bottom: 0;
+	
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+	background-color: rgba(0, 0, 0, 0.432);
+	background-size: 45px;
+	transition: 0.5s;
+	display: flex;
+	flex-direction: row;
+	min-height: 45px;
+}
+
+.foot:hover {
+	display: flex;
+	position: fixed;
+	padding-bottom: 15px;
+}
+
+.foot p {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.social {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.social ul {
+	display: flex;
+	font-size: 1.5rem;
+	margin-bottom: 5px;
+	padding-left: 50px;
+	padding-right: 0px;
+}
+
+.icon1 {
+	display: absolute;
+	background-image: webkit;
+}
+
+
+.icon2 {
+	display: absolute;
+}
+
+ul#icons li.icon1 {
+	padding-right: 20px;
+	padding-left: 20px;
+	list-style-image: url('./icons/insta.png');
+}
+
+ul#icons li.icon2 {
+	padding-right: 0px;
+	padding-left: 20px;
+	list-style-image: url('./icons/linkin.png');
+}
+
+.messageCenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}

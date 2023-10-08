@@ -1,0 +1,12 @@
+# Local Files #
+###############
+node_modules
+
+# IDE files #
+#############
+.idea
+
+# Local files #
+################
+App/.Caches
+App/build
